@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --color-black: #000000;
+  --color-gray: #424949;
+  --color-white: #ffffff;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#rodLogo {
+  width: 100px;
+}
+
+nav {
+  background-color: var(--color-black);
+}
+
+footer {
+  background-color: var(--color-gray);
+}
+
+#banner {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 8rem 5rem;
+}
+
+#banner-headings {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#banner-img {
+  border-radius: 1rem;
+}
+
+#banner-smalltext {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 3rem;
+}
+
+#experiences {
+  padding: 8rem 5rem;
+  background-color: var(--color-gray);
+}
+
+.experiences-headings {
+  font-size: 3rem;
+  color: var(--color-white);
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.experiences-subheadings {
+  font-size: 1.3rem;
+  color: var(--color-white);
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.experiences-p {
+  text-align: justify;
+  text-justify: inter-word;
+}
