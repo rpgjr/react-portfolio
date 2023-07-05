@@ -1,44 +1,33 @@
 import React from 'react'
 
-const Carousel = ({ ojt_1, ojt_2, ojt_3 }) => {
+const Carousel = ({pic_1, pic_2, pic_3, pic_4, pic_5}) => {
   return (
     <React.Fragment>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={ojt_1} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
+      <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-inner">
+          <div className="carousel-item active" data-bs-interval="4000">
+            <img src={pic_1} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={ojt_2} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
+          <div className="carousel-item" data-bs-interval="4000">
+            <img src={pic_2} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={ojt_3} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
+          <div className="carousel-item" data-bs-interval="4000">
+            <img src={pic_3} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item" data-bs-interval="4000">
+            <img src={pic_4} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item" data-bs-interval="4000">
+            <img src={pic_5} className="d-block w-100" alt="..." />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </React.Fragment>

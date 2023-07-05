@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import rodLogo from './../Images/rodrigo-logo.png'
-import rodrigoLogo from './../Images/rodrigo-logo-removebg.png'
 
 const Navbar = () => {
   return (

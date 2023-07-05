@@ -1,9 +1,10 @@
 import React from 'react'
 import Carousel from '../Components/Carousel'
-import ojt_1 from './../Images/ojt_1.png'
-import ojt_2 from './../Images/ojt_2.png'
-import ojt_3 from './../Images/ojt_3.png'
-import ojt_4 from './../Images/ojt_4.png'
+import ojt_pic_1 from './../Images/ojt_pic_1.png'
+import ojt_pic_2 from './../Images/ojt_pic_2.png'
+import ojt_pic_3 from './../Images/ojt_pic_3.png'
+import ojt_pic_4 from './../Images/ojt_pic_4.png'
+import ojt_pic_5 from './../Images/ojt_pic_5.png'
 
 
 const Experiences = () => {
@@ -15,7 +16,13 @@ const Experiences = () => {
             <p className='experiences-headings mb-5'>My Experiences</p>
           </div>
           <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-            <Carousel ojt_1={ojt_1} ojt_2={ojt_2} ojt_3={ojt_3} />
+            <Carousel 
+              pic_1={ojt_pic_1} 
+              pic_2={ojt_pic_2} 
+              pic_3={ojt_pic_3} 
+              pic_4={ojt_pic_4} 
+              pic_5={ojt_pic_5} 
+            />
 
             <div className='experiences-text'>
               <p className="experiences-headings mt-4 mb-1">Internship</p>
@@ -25,7 +32,7 @@ const Experiences = () => {
           </div>
 
           <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-            <Carousel ojt_1={ojt_1} ojt_2={ojt_2} ojt_3={ojt_3} />
+            <iframe src="https://www.youtube.com/embed/QkkNq4QXTUY"></iframe>
 
             <div className='experiences-text'>
               <p className="experiences-headings mt-4 mb-1">Capstone Project</p>
