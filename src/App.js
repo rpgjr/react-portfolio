@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import Banner from "./Sections/Banner";
 import Footer from "./Components/Footer";
 import Experiences from "./Sections/Experiences";
+import Skills from "./Sections/Skills";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Banner />
       <Experiences />
+      <Skills />
       <Footer />
     </React.Fragment>
   );
