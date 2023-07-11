@@ -25,8 +25,11 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 order-first order-lg-last text-center text-md-center text-lg-end">
+          {/* <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 order-first order-lg-last text-center text-md-center text-lg-end">
             <img src={MyPicture} alt="" id='banner-img' />
+          </div> */}
+          <div id='banner-profile-box' className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 order-first order-lg-last text-center text-md-center text-lg-end d-flex justify-content-center align-items-center'>
+            <div className='banner-profile'></div>
           </div>
         </div>
       </div>
