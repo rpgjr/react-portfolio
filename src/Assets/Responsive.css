@@ -14,8 +14,12 @@
   #banner-img {
     width: 100%;
   }
+  .banner-profile {
+    height: 300px;
+    width: 300px;
+  }
 
-  #experiences, #skills {
+  #experiences, #skills, #contacts {
     padding: 5rem 2rem;
   }
   .experiences-rows {
@@ -47,8 +51,12 @@
   #banner-img {
     width: 70%;
   }
+  .banner-profile {
+    height: 450px;
+    width: 450px;
+  }
 
-  #experiences, #skills {
+  #experiences, #skills, #contacts {
     padding: 5rem;
   }
   .experiences-rows {
@@ -80,8 +88,12 @@
   #banner-img {
     width: 70%;
   }
+  .banner-profile {
+    height: 450px;
+    width: 450px;
+  }
 
-  #experiences, #skills {
+  #experiences, #skills, #contacts {
     padding: 5rem;
   }
   .experiences-rows {
@@ -113,8 +125,12 @@
   #banner-img {
     width: 100%;
   }
+  .banner-profile {
+    height: 400px;
+    width: 400px;
+  }
 
-  #experiences, #skills {
+  #experiences, #skills, #contacts {
     padding: 5rem;
   }
   .experiences-rows {
@@ -146,8 +162,12 @@
   #banner-img {
     width: 80%;
   }
+  .banner-profile {
+    height: 550px;
+    width: 550px;
+  }
 
-  #experiences, #skills {
+  #experiences, #skills, #contacts {
     padding: 5rem;
   }
   .experiences-rows {

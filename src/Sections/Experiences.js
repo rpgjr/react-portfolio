@@ -14,6 +14,7 @@ const Experiences = () => {
         <div className="row g-5 justify-content-center">
           <div className="col-12 mb-5">
             <p className='section-headings'>My Experiences</p>
+            <p className='text-center'>Other projects can be seen on my <a href="https://github.com/rpgjr" className='text-white fw-bold text-decoration-none' target='_blank'>Github</a> Profile</p>
           </div>
           <div className="col-12 row experiences-rows align-items-center">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -42,7 +43,7 @@ const Experiences = () => {
 
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-sm-last order-lg-first">
               <div>
-                <p className="section-headings mt-4 mb-1">Capstone Project</p>
+                <p className="section-headings mt-4 mb-1" >Capstone Project</p>
                 <p className='section-subheadings mt-1 mb-4'>Full Stack Web Developer</p>
                 <p className='section-p'><a href="https://puptcapstone.net/puptaps/public_html/" className='text-white fw-bold' target='_blank'>The Alumni Portal System</a> was the system that I created for my Thesis/Capstone Project. I was the <span className='fw-bold'>Full Stack Developer and Project Manager</span> of our group. The technologies that I used in this project was <span className='fw-bold'>PHP Laravel, JavaScript, Bootstrap and Laravel Livewire.</span></p>
               </div>

@@ -5,7 +5,7 @@ const Carousel = ({pic_1, pic_2, pic_3, pic_4, pic_5}) => {
     <React.Fragment>
       <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="4000">
+          <div className="carousel-item active" data-bs-interval="2000">
             <img src={pic_1} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item" data-bs-interval="4000">
