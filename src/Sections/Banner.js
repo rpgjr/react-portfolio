@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import MyPicture from './../Images/MyPicture.jpg'
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6"; 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Banner = () => {
+  useEffect (() => {
+    AOS.init();
+  }, [])
+
   return (
     <React.Fragment>
       <div className="container-fluid" id='banner'>
         <div className="row align-items-center g-2">
-          <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-6 order-last order-lg-first">
+          <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-6 order-last order-lg-first" data-aos="fade-right" data-aos-duration="1000">
             <div className="banner-text text-center text-md-center text-lg-start">
-              <p id='banner-headings' className='animate__animated animate__shakeY animate__delay-1s'>Hi! I'm Rodrigo</p>
+              <p id='banner-headings' className='animate__animated animate__shakeY animate__delay-2s'>Hi! I'm Rodrigo</p>
               <p id='banner-subheadings'>Web Developer</p>
               <p id='banner-smalltext'>I'm an aspiring Full Stack Web Developer who's eager to learn and to grow in the field of Web Development. I'm passionate and enthusiastic in becoming a Developer and willing to explore more in the field of IT.</p>
               <div className="socials d-flex gap-4 justify-content-center justify-content-md-center justify-content-lg-start">
@@ -28,7 +34,7 @@ const Banner = () => {
           {/* <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 order-first order-lg-last text-center text-md-center text-lg-end">
             <img src={MyPicture} alt="" id='banner-img' />
           </div> */}
-          <div id='banner-profile-box' className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 order-first order-lg-last text-center text-md-center text-lg-end d-flex justify-content-center align-items-center'>
+          <div id='banner-profile-box' className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 order-first order-lg-last text-center text-md-center text-lg-end d-flex justify-content-center align-items-center' data-aos="fade-left" data-aos-duration="1000">
             <div className='banner-profile'></div>
           </div>
         </div>

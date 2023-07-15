@@ -21,6 +21,9 @@
 nav, footer {
   background-color: var(--color-black);
 }
+body {
+  overflow-x: hidden;
+}
 
 #contacts, #experiences {
   background-color: var(--color-gray);
